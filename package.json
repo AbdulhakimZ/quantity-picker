@@ -1,5 +1,5 @@
 {
-  "name": "react-quantity-picker",
+  "name": "react-qty-picker",
   "version": "1.0.0",
   "description": "React js quantity picker",
   "main": "dist/index.js",
