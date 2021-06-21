@@ -10,5 +10,5 @@ const change = (val) =>{
 }
 stories.add('QuantityPicker',()=>{
     console.log(val)
-    return (<QuantityPicker onChange={(valu)=>{console.log(valu)}}/>);
+    return (<QuantityPicker onChange={(valu)=>{console.log(valu)}}  width='17rem'/>);
 })
