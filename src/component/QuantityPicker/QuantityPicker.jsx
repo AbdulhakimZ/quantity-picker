@@ -6,8 +6,8 @@ export const  QuantityPicker = props => {
 const [value, setValue] = useState(props.value?props.value:0)
 
 const handleChange = (nm) => (event)=>{
-  const plusValue  = value + 1;
-  const minusValue = value - 1;
+  const plusValue  = Number(value) + 1;
+  const minusValue = Number(value) - 1;
   switch(nm){
       case 'increment':{
           if(props.max === undefined){
@@ -68,11 +68,10 @@ useEffect(() => {
 
     return (
       props.smooth ? 
-      <fieldset data-quantity="">
-      <legend>Change quantity</legend>
+      <fieldset style={{width:props.width?props.width:'10rem'}} data-quantity="">
         <button onClick={handleChange('decrement')} type="button" 
                 title="Down" class="sub">Down</button>
-        <input  style={{width:props.width?props.width:'4rem'}}  
+        <input  style={{width:props.width?props.width:'10rem'}}  
                 value={value} type="number" name="quantity" pattern="[0-9]+"  
                 onChange={handleChange('input')}/>
         <button type="button" title="Up" 

@@ -5,10 +5,10 @@ import { QuantityPicker } from '../component/QuantityPicker';
 
 const stories = storiesOf('App Test', module);
 let val = 5;
-const change = (val) =>{
+const getPickerValue = (val) =>{
     console.log(val)
 }
 stories.add('QuantityPicker',()=>{
     console.log(val)
-    return (<QuantityPicker onChange={(valu)=>{console.log(valu)}}  width='17rem'/>);
+    return (<QuantityPicker onChange={getPickerValue}/>);
 })
