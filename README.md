@@ -9,41 +9,27 @@
 
   ### NPM
 ```bash
-
 $ npm install --save react-qty-picker
-
 ```
 ### Yarn
 ```bash
-
 $ yarn add react-qty-picker
-
 ```
-
   
-
 ## Usage
-
   
-
 ### Import
 
   
 
 ```bash
-
 import { QuantityPicker } from 'react-qty-picker';
-
 ```
 
-### Use
-
-  
+### Use  
 
 ```bash
-
 <QuantityPicker />
-
 ```
 
   
@@ -73,10 +59,11 @@ import { QuantityPicker } from 'react-qty-picker';
 -  [Style](https://easycodesolution.com/#using-with-libraries)
 
   
+## Github
+-  ## <a href="https://github.com/AbdulhakimZ/quantity-picker"> Github repository</a>
 
-## <a href="https://github.com/AbdulhakimZ/quantity-picker"> Github repository</a>
-
-## <a href="https://easycodesolution.com/">Docs</a>
+## Docs
+-  ## <a href="https://easycodesolution.com/">Docs</a>
 
   
   
