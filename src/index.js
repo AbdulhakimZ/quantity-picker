@@ -1,1 +1,1 @@
-export * from './component/QuantityPicker/QuantityPicker.jsx'
+export * from './component/QuantityPicker'

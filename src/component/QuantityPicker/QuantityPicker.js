@@ -1,6 +1,6 @@
 import React,{ useState, useEffect}  from 'react';
 import './index.css'
-const  QuantityPicker = props => {
+export const  QuantityPicker = props => {
 
 const [value, setValue] = useState(props.value?props.value:0)
 
@@ -10,29 +10,34 @@ const handleChange = (nm) => (event)=>{
   switch(nm){
     case 'increment':{
         if(props.max === undefined){
-          setValue(plusValue);
+            setValue(plusValue);
+            props.onChange && props.onChange(plusValue);
         }
         else if(plusValue <= Number(props.max)){
             setValue(plusValue);
-        }
-        
+            props.onChange && props.onChange(plusValue)
+        }        
         break;
       }
       case 'decrement':{
         if(props.min === undefined){
           setValue(minusValue);
+          props.onChange && props.onChange(minusValue)
         }
         else if(minusValue >= Number(props.min)){
             setValue(minusValue);
+            props.onChange && props.onChange(minusValue)
           }
         break;
       }
       case 'input':{
         if(props.min === undefined && props.max === undefined){
           setValue(event.target.value)
+          props.onChange && props.onChange(event.target.value)
         }
         else if(event.target.value >= Number(props.min) && event.target.value <= Number(props.max)){
             setValue(event.target.value)
+            props.onChange && props.onChange(event.target.value)
         }
         }
         break
@@ -41,7 +46,6 @@ const handleChange = (nm) => (event)=>{
 useEffect(() => {
   const abortController = new AbortController();
   const signal = abortController.signal;
-  
   // if(props.value !== undefined){
   //   if(!isNaN(props.value))
   //     setValue(props.value)
@@ -67,4 +71,3 @@ useEffect(() => {
       </span>
     );
 }
-export default QuantityPicker;

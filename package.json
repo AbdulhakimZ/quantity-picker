@@ -1,14 +1,14 @@
 {
-  "name": "qt-picker",
+  "name": "react-quantity-picker",
   "version": "1.0.0",
   "description": "React js quantity picker",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build-lib": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "build-lib": "rollup -c"
+    "build-storybook": "build-storybook"
   },
   "author": "Abdlhakim Zeinu",
   "license": "MIT",
