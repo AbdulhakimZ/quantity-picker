@@ -40,30 +40,30 @@ import { QuantityPicker } from 'react-qty-picker';
 
   
 
--  [Installation](https://easycodesolution.com/)
+-  [Installation](https://easycodesolution.com/2021/06/22/react-quantity-picker/#installation)
 
   
 
--  [Getting started](https://easycodesolution.com/#getting-started)
+-  [Getting started](https://easycodesolution.com/2021/06/22/react-quantity-picker/#getting-started)
 
   
 
--  [Props](https://easycodesolution.com/#advanced-examples)
+-  [Props](https://easycodesolution.com/2021/06/22/react-quantity-picker/#props)
 
   
 
--  [Get value](https://easycodesolution.com/#upgrading-from-1x)
+-  [Get value](https://easycodesolution.com/2021/06/22/react-quantity-picker/#get-value)
 
   
 
--  [Style](https://easycodesolution.com/#using-with-libraries)
+-  [Styling](https://easycodesolution.com/2021/06/22/react-quantity-picker/#styling)
 
   
 ## Github
 -  ## <a href="https://github.com/AbdulhakimZ/quantity-picker"> Github repository</a>
 
 ## Docs
--  ## <a href="https://easycodesolution.com/">Docs</a>
+-  ## <a href="https://easycodesolution.com/2021/06/22/react-quantity-picker">Docs</a>
 
   
   
