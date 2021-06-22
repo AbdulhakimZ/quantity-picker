@@ -11,7 +11,7 @@
     "build-storybook": "build-storybook"
   },
   "files": [
-    "dist"
+    "/dist"
   ],
   "author": "Abdlhakim Zeinu",
   "license": "MIT",
