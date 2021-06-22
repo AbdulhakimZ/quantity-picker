@@ -70,20 +70,20 @@ useEffect(() => {
       props.smooth ? 
       <fieldset style={{width:props.width?props.width:'10rem'}} data-quantity="">
         <button onClick={handleChange('decrement')} type="button" 
-                title="Down" class="sub">Down</button>
+                title="Down" className="sub">Down</button>
         <input  style={{width:props.width?props.width:'10rem'}}  
                 value={value} type="number" name="quantity" pattern="[0-9]+"  
                 onChange={handleChange('input')}/>
         <button type="button" title="Up" 
-                class="add" onClick={handleChange('increment')}>Up</button>
+                className="add" onClick={handleChange('increment')}>Up</button>
       </fieldset>
        :
-       <span className="quantity-picker">
-        <button className={`${props.disableDec ? 'mod-disable ' : ''}quantity-modifier modifier-left`} 
+       <span classNameName="quantity-picker">
+        <button classNameName={`${props.disableDec ? 'mod-disable ' : ''}quantity-modifier modifier-left`} 
         onClick={handleChange('decrement')}>&ndash;</button>
-        <input style={{width:props.width?props.width:'4rem'}} className="quantity-display" type="text" 
+        <input style={{width:props.width?props.width:'4rem'}} classNameName="quantity-display" type="text" 
         value={value} onChange={handleChange('input')} />
-        <button className={`${props.disableInc ? 'mod-disable ' : ''}quantity-modifier modifier-right`} 
+        <button classNameName={`${props.disableInc ? 'mod-disable ' : ''}quantity-modifier modifier-right`} 
         onClick={handleChange('increment')}>&#xff0b;</button>
       </span> 
       
