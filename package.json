@@ -1,7 +1,7 @@
 {
   "name": "react-qty-picker",
-  "version": "1.0.1",
-  "description": "React js quantity picker",
+  "version": "1.0.2",
+  "description": "React quantity picker",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
