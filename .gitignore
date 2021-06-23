@@ -1,5 +1,5 @@
 #Storybook
-src
+src/stories
 .storybook
 
 # Dependency directories
