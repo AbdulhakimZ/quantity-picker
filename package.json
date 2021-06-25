@@ -1,6 +1,6 @@
 {
   "name": "react-qty-picker",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "React quantity picker",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -11,7 +11,7 @@
     "build-storybook": "build-storybook"
   },
   "files": [
-    "/dist"
+    "/dist","/src"
   ],
   "author": "Abdlhakim Zeinu",
   "license": "MIT",
